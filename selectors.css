@@ -1,0 +1,38 @@
+p {
+    color: crimson;
+}
+
+/* This is a CSS comment */
+h1 {
+    border: 4px dashed salmon;
+}
+
+.bold-text {
+    font-weight: bold;
+}
+
+.italic-text {
+    font-style: italic;
+}
+
+#the-title {
+    background-color: lavender;
+}
+
+p.bold-text {
+    background-color: orangered;
+}
+
+.bold-text:not(p) {}
+
+.italic-text.bold-text {
+    text-decoration: underline;
+}
+
+.bold-text p {
+    color: dodgerblue;
+}
+
+.bold-text, .italic-text {
+    font-size: 10px;
+}

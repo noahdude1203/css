@@ -1,0 +1,32 @@
+
+.outer-box{
+    width: 200px;
+    height: 100px;
+    padding: 10px 25px 75px;
+    border: 17px solid black;
+    margin: 10px;
+    overflow: scroll;
+} 
+
+#special-div {
+    margin-top: 100px;
+    border-right:17px solid darkgray;
+    border-bottom:17px solid darkgray;
+}
+
+#container {
+    width: initial;
+    height: initial;
+}
+
+#container p{
+    display: inline-block;
+    border: 1px solid gray;
+    width: 100px;
+    height: 100px;
+}
+
+
+.inner-box{
+
+}

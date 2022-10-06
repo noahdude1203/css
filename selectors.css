@@ -1,3 +1,4 @@
+<<<<<<< Updated upstream
 p {
     color: crimson;
 }
@@ -36,3 +37,20 @@ p.bold-text {
 .bold-text, .italic-text {
     font-size: 10px;
 }
+=======
+p{
+    color: darkmagenta;
+}
+h1 {
+    border: 4px dashed red;
+}
+.bold-text{
+    font-weight: bold;
+}
+.italic-text{
+    font-style: italic;
+}
+#the-title{
+    background-color: lavender;
+}
+>>>>>>> Stashed changes

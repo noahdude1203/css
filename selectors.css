@@ -1,4 +1,3 @@
-<<<<<<< Updated upstream
 p {
     color: crimson;
 }
@@ -10,14 +9,15 @@ h1 {
 
 p strong {}
 
-.bold-text {
-    font-weight: bold;
-}
-
 .italic-text {
     font-style: italic;
+    color: turquoise;
 }
 
+.bold-text {
+    font-weight: bold;
+    color: dimgray;
+}
 #the-title {
     background-color: lavender;
 }

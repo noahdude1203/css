@@ -1,3 +1,21 @@
 body {
   font-family: "Helvetica Neue", Helvetica, sans-serif;
 }
+a:hover {
+  background-color: lightpink;
+}
+a::after {
+  content: "😶‍🌫️";
+}
+
+.extra {
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  background-color: firebrick;
+
+  box-shadow: 10px 10px 20px rgba(0,0,0,0.5);
+  border-radius: 50%;
+  border: 5px solid darkred;
+  cursor: pointer;
+}

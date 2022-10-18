@@ -38,3 +38,12 @@ header h1 {
 .right {
   float: right;
 }
+
+@media(max-width: 640px){
+  .navitem.right {
+    float: none;
+  }
+  .navitem {
+    display: block;
+  }
+}
